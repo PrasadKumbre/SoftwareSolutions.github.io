@@ -1,0 +1,1036 @@
+/* Body Editor */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Making of Custom Scroll bar  */
+
+html {
+    scroll-behavior: smooth;
+}
+
+html ::-webkit-scrollbar {
+    width: 10px;
+
+}
+
+html ::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 125px;
+}
+
+html ::-webkit-scrollbar-track {
+    background-color: #1d2026;
+}
+
+/* Main Div page Editor */
+.h {
+    height: auto;
+    width: auto;
+    background-position-x: center;
+    background-size: auto;
+    color: white;
+    background-color: #1d2026;
+}
+
+
+/* Navigation Bar Editor */
+nav {
+    display: flex;
+    padding: 5px 25px;
+    align-items: center;
+    color: #fff;
+}
+
+/* Logo Image Editor */
+nav .i {
+    height: 100px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Navigation Bar Links Display in oneline*/
+nav ul {
+    text-align: right;
+    display: inline;
+    list-style: none;
+    flex: 1;
+}
+
+/* Navigation Bar List Editor */
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+/*  For heading of Home page   */
+.aa {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.9vw;
+}
+
+/* 'Software Solution' Text Editor */
+.a {
+    margin-left: 1%;
+    font-size: 1.75vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 0px;
+    text-align: left;
+    display: initial;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*Main Page Editor  */
+.main {
+    margin-top: 3%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+/*Home Page Content(Content No 2)  */
+.c {
+    margin: 1%;
+    text-align: center;
+    font-size: 1.50vw;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin-left: 10%;
+    flex-wrap: wrap;
+}
+
+/*Button Style Editor  
+.b {
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    height: 60px;
+    margin: 2px auto;
+    background-color: green;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 35px;
+    border: 4px solid #fff;
+    font-family: sans-serif;
+    border-radius: 125px;
+}
+
+
+/*Button Effect  
+.b:hover {
+    background: red;
+    color: red;
+    transition: 0.5s;
+}
+*/
+
+/*  Navbar list   */
+.ay {
+    color: #fff;
+    font-size: 1.1vw;
+}
+
+/*Animation for Header Links */
+.ay:hover {
+    transition: 0.5s;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+/*  Image added on home page Which links to About us page  */
+.hpp {
+    width: 90%;
+    height: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 25px;
+
+}
+
+.hpp:hover {
+    width: 95%;
+    height: 40%;
+}
+
+/* This is Highlights the tab in Home page for.eg: Services  */
+
+.ayy {
+    font-size: 1.8vw;
+    color: red;
+}
+
+/*Animation for Header Links */
+.y:hover {
+    transition: 0.5s;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Button Underline Remover */
+.v {
+    text-decoration: none;
+    padding: 5px;
+    background-color: transparent;
+}
+
+
+/*Anchor Tag Underline Remover */
+a {
+    text-decoration: none;
+}
+
+/*Class property for h1 heading tag in every page. */
+.main1 {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+/*Page No 2 'Services' list Editior */
+#g {
+    margin: 4% auto;
+    text-align: left;
+    text-decoration: none;
+    font-size: 30px;
+    list-style: none;
+    padding-left: 50px;
+
+}
+
+/*        */
+
+.jj {
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+    padding: 25px;
+}
+
+
+/* Home Page Image Animation Editor */
+.k {
+    border-radius: 20px;
+    margin: 2.5% auto;
+    height: 50%;
+    background-color: transparent;
+    width: 60%;
+}
+
+/*  Page no 3 Technologies Images properties      */
+.tps {
+    border-radius: 25px;
+    width: 83vw;
+    height: auto;
+    margin: 2.5%;
+}
+
+.tps:hover {
+    border-radius: 25px;
+    width: 84vw;
+    height: auto;
+    margin: 2.5%;
+
+}
+
+
+/* Footer css */
+
+footer {
+    margin-top: 5%;
+    width: 99%;
+    position: bottom;
+    bottom: 0;
+    background: linear-gradient(grey, white, white, white, white, white, grey);
+    padding: 100px 0 20px;
+    font-size: 0.67vw;
+    display: inline-flex;
+    line-height: 25px;
+    border-radius: 100px;
+
+}
+
+.row {
+    width: 80%;
+    margin: 2%;
+    margin-left: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 0.67vw;
+    background-color: transparent;
+}
+
+.flogo {
+    width: 10.41vw;
+    height: 10.41vw;
+    margin-bottom: 0%;
+    border-radius: 125px;
+    background-color: transparent;
+}
+
+.col h2 {
+    margin-left: 4%;
+    color: transparent;
+    font-size: 0.93vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    animation: effect 6s linear infinite;
+
+}
+
+.col h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: transparent;
+    animation: effect 6s linear infinite;
+
+}
+
+@keyframes effect {
+    0% {
+        color: navy;
+    }
+
+    50% {
+        color: red;
+    }
+
+    100% {
+        color: blue;
+    }
+}
+
+.fimg {
+    width: 7.18vw;
+    height: 2.6vw;
+    margin-bottom: 5%;
+}
+
+
+.col {
+    flex-basis: 5%;
+    padding: 10px;
+    font-size: 0.93vw;
+    color: #fff;
+    background-color: transparent;
+
+}
+
+.col h3 {
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.col ul {
+
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.col p {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 1vw;
+}
+
+.col li {
+    color: black;
+}
+
+.col b {
+    color: black;
+    font-weight: bold;
+    font-size: 0.93vw;
+}
+
+.ph {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col li:hover {
+    color: red;
+    font-weight: bold;
+}
+
+/* Page no 4 About us page image properties  */
+.ABS {
+    height: 41vw;
+    width: 90vw;
+    border-radius: 6.51vw;
+    margin-bottom: 5%;
+}
+
+/* Footer Follow US Logo  */
+
+.FollowUS {
+    border-radius: 6.5vw;
+    padding: 5px;
+    width: 2.6vw;
+    height: 2.6vw;
+}
+
+.FollowUS:hover {
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+}
+
+
+/*   PAGE NO 2 SERVICES CSS */
+
+.cards {
+    display: inline-block;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 400px;
+    height: 700px;
+    background-color: #fff;
+    color: black;
+    border-radius: 25px;
+    box-shadow: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 5px white;
+}
+
+/*  Animation properties which are in cards    */
+.Ami {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 1.5%;
+    align-items: center;
+}
+
+/*  The titel for Cards */
+.title {
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/*  Button property present in cards  */
+.But {
+    margin-top: 15%;
+    text-decoration: none;
+    font-size: 0.93vw;
+    font-weight: bold;
+    padding: 5px;
+    border: 3px solid black;
+    position: relative;
+}
+
+.But::before,
+.But::after {
+    content: "";
+    position: absolute;
+    width: 2.8vw;
+    height: 2.8vw;
+    border: inherit;
+    transition: all .5s;
+}
+
+.But::before {
+    top: -15px;
+    left: -15px;
+    border-width: 3px 0 0 3px;
+}
+
+.But::after {
+    bottom: -15px;
+    right: -15px;
+    border-width: 0 3px 3px 0;
+}
+
+.But:hover::before,
+.But:hover::after {
+    width: calc(100% + 27px);
+    height: calc(100% + 27px);
+}
+
+.But:hover {
+    background-color: black;
+    color: #fff;
+}
+
+
+/* 
+.services-we-offer .content-right ul li a {
+    color: #252b33;
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+*/
+
+/*  Services page/crads/Type of services images/logo porperties   */
+.slogo {
+    width: 40px;
+    height: 40px;
+}
+
+
+.TechName {
+    padding-left: 10px;
+}
+
+/*  service page/cards/Des types of subtype-sevices or technology display in table which contains these property  */
+.Stable {
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: left;
+    padding: 5px;
+
+}
+
+/*   Following same as top bet to define property for each row of following table */
+.ttdd {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+
+/*  Services/Service Details  Page  properties */
+
+.caa {
+    width: auto;
+    text-align: center;
+    height: auto;
+    justify-content: center;
+    font-size: 1.30vw;
+    margin-bottom: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* In caa For Heading */
+.caa h1 {
+    margin-left: 5px;
+    text-align: left;
+    font-size: 1.56vw;
+    color: orange;
+}
+
+/* In-depth details about services */
+.caaa {
+    color: white;
+    margin: 2%;
+    text-align: left;
+}
+
+/*  Services/Service Details page image properties */
+.CS {
+    width: 88.54vw;
+    height: 33.85vw;
+    border-radius: 25px;
+    margin-bottom: 5%;
+}
+
+
+/* for H1 tag in services details page porperties   */
+.main2 {
+    font-size: 2.6vw;
+    margin-bottom: 2%;
+}
+
+/*
+.Video {
+    width: 980px;
+    height: 550px;
+    border-radius: 25px;
+    margin: 2%;
+}
+*/
+
+/*  Button2 mainly use in Every page of Services Details this is properties    */
+.Butt {
+    margin-top: 5%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.93vw;
+    width: 10.41vw;
+    height: 3.125vw;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    border: 5px solid white;
+    position: relative;
+}
+
+.Butt::before,
+.Butt::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: inherit;
+    transition: all .5s;
+}
+
+.Butt::before {
+    top: -15px;
+    left: -15px;
+    border-width: 3px 0 0 3px;
+}
+
+.Butt::after {
+    bottom: -15px;
+    right: -15px;
+    border-width: 0 3px 3px 0;
+}
+
+.Butt:hover::before,
+.Butt:hover::after {
+    width: calc(100% + 27px);
+    height: calc(100% + 27px);
+}
+
+.Butt:hover {
+    background-color: black;
+    color: #fff;
+}
+
+
+
+/* properties for Outside for form  */
+.FromOutside {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('Images/Sub Pages/ENF.jpg');
+    border-radius: 125px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*  CSS for Enquiry form    */
+
+.Form {
+    max-width: 52vw;
+    width: 100%;
+    background: transparent;
+    color: white;
+
+}
+
+.From_Title {
+    font-size: 1.82vw;
+    font-weight: 900;
+    flex: auto;
+    margin-bottom: 8%;
+    margin-top: 10%;
+
+}
+
+.Form form .Userdetails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .Userdetails .InputBox {
+    margin: 20px 0 12px 0;
+    width: calc(100% / 2 - 20px);
+
+}
+
+.Userdetails .InputBox .Details {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 2%;
+    text-align: left;
+}
+
+
+.Userdetails .InputBox input {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.InputBox select {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: red;
+    font-weight: 900;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.InputBox select option {
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.InputBox .message {
+    height: 90px;
+    width: 100%;
+}
+
+#Button1
+{
+   margin-left: 80%;
+   margin-top: 10%; 
+}
+
+.ul1 {
+    margin-left: 3%;
+    margin-bottom: 2%;
+    text-align: left;
+    list-style: square;
+}
+
+
+/*  These is css for responsive design */
+
+@media only screen and (max-width:500px) {
+
+
+    .hpp {
+        width: 350px;
+        height: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border-radius: 25px;
+    }
+
+    .hpp:hover {
+        width: 380px;
+        height: 130px;
+    }
+
+    .aa {
+        font-size: 13px;
+        width: 350px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .c {
+        font-size: 9px;
+    }
+
+    .ay:hover {
+        font-size: 20px;
+        color: lightgreen;
+    }
+
+    .Butt {
+        width: 60px;
+        height: 20px;
+        border: solid transparent;
+        font-size: 5px;
+    }
+
+    .Butt:hover {
+        background-color: black;
+        color: #fff;
+    }
+
+    .k {
+        width: 300px;
+        height: 150px;
+    }
+
+    .ayy {
+        font-size: 15px;
+        text-align: right;
+    }
+
+    .tps {
+        width: 330px;
+    }
+
+    .tps:hover {
+        width: 330px;
+    }
+
+    .ABS {
+        width: 330px;
+    }
+
+    .CS {
+        width: 1100px;
+    }
+
+    .ca {
+        width: 330;
+    }
+
+    .caaa {
+        width: 330px;
+    }
+
+    .caa {
+        width: 330px;
+        justify-content: center;
+        text-align: center;
+        margin-left: 6%;
+        font-size: 10px;
+    }
+
+    nav .i {
+        height: 80px;
+        width: 100px;
+        border-radius: 50%;
+    }
+
+    .ay {
+        font-size: 15px;
+        display: inline;
+    }
+
+    .flogo {
+        height: 100px;
+        width: 100px;
+        border: 3px solid lightblue;
+    }
+
+    .col {
+        font-size: 10px;
+    }
+
+    .col h2 {
+        font-size: 15px;
+    }
+
+    .col b {
+        font-size: 10px;
+    }
+
+    .fimg {
+        width: 100px;
+        height: 40px;
+    }
+
+    .FollowUS {
+        height: 25px;
+        width: 25px;
+
+    }
+
+    .FollowUS:hover {
+        height: 35px;
+        width: 35px;
+    }
+
+    .cards {
+        width: 300px;
+        height: 600px;
+    }
+
+    .title h1 {
+        font-size: 20px;
+    }
+
+    .ttdd {
+        font-size: 1px;
+    }
+
+    .slogo {
+        width: 20px;
+        height: 20px;
+    }
+
+    .Stable {
+        margin-left: 15%;
+        justify-content: center;
+    }
+
+    .main1 {
+        font-size: 25px;
+    }
+
+    .But {
+        margin-top: 20%;
+        text-decoration: none;
+        text-align: center;
+        font-size: 10px;
+        width: 100px;
+        height: 20px;
+        color: black;
+        font-weight: bold;
+        padding-bottom: 15PX;
+        border: 1px solid black;
+        position: relative;
+    }
+
+    .But::before,
+    .But::after {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border: inherit;
+        transition: all .5s;
+    }
+
+    .But::before {
+        top: -15px;
+        left: -15px;
+        border-width: 3px 0 0 3px;
+    }
+
+    .But::after {
+        bottom: -15px;
+        right: -15px;
+        border-width: 0 3px 3px 0;
+    }
+
+    .But:hover::before,
+    .But:hover::after {
+        width: calc(100% + 27px);
+        height: calc(100% + 27px);
+    }
+
+    .But:hover {
+        background-color: black;
+        color: #fff;
+    }
+
+    .CS {
+        width: 350px;
+        height: 200px;
+    }
+
+    .main2 {
+        font-size: 25px;
+    }
+
+    .caaa {
+        text-align: center;
+        justify-items: center;
+        width: 320px;
+        font-size: 10px;
+    }
+
+    .ca {
+        width: 300px;
+        font-size: 15px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .caa h1 {
+        font-size: 15px;
+    }
+
+    .ul1 {
+        font-size: 10px;
+        margin-left: 7%;
+        text-align: left;
+        list-style: square;
+    }
+
+    .ABS {
+        width: 350px;
+        height: 200px;
+        border-radius: 50px;
+    }
+
+    .Form form .Userdetails {
+        display: block;
+    }
+
+    /* properties for Outside for form  */
+    .FromOutside {
+        height: auto;
+        width: auto;
+    }
+
+    .From_Title {
+        font-size: 15px;
+        color: red;
+    }
+
+    form .Userdetails .InputBox {
+        width: auto;
+        height: auto;
+    }
+
+
+    .InputBox .message {
+        height: auto;
+        width: auto;
+    }
+   
+    #Button1
+    {
+        margin-left: 9%;
+        font-size: 10px;
+        padding: 2px;
+
+    }
+
+    .Userdetails .InputBox .Details {
+    font-size: 15px;
+    }
+   
+    .Userdetails .InputBox input {
+     height: 30px;
+     width: auto;
+    }
+    
+    .InputBox select {
+        height: 30px;
+        width: 200px;
+    }
+    .FollowUS:hover
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+    #FeelFree
+    {
+        margin-left: 15%;
+    }
+}
